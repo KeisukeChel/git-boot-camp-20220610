@@ -8,4 +8,4 @@ def index():
     return 'Hello Heroku_Flask'
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
